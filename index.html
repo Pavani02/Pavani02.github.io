@@ -840,9 +840,9 @@
           }
         }
         var array1=["a1","a7","a13","a19","a25"];
-        for (var i = 0; i < array1.length-3; i++) {
+        for (var i = 0; i <= array1.length-3; i++) {
           var numarray=[];
-          for (var j = i; j <= i+3; j++) {
+          for (var j = i; j < i+3; j++) {
             var eleme=document.getElementById(array1[j]);
             var valu=eleme.style.backgroundColor;
             numarray.push(valu);
